@@ -13,5 +13,4 @@ urlpatterns = [
     path('signin/forgot_password/',views.forgot_password, name='forgot_password'),
     path('change_password_form/<uidb64>/<token>/',views.change_password_form, name='change_password_form')
 
-
 ]
